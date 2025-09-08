@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class MeanHeightCalculator {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double[] heights = new double[11];

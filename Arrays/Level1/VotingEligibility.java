@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class VotingEligibility {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] ages = new int[10];
